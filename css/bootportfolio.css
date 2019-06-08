@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 a {
     color: #6c757d;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,14 +6,10 @@ a {
     text-decoration: none;
     margin-top: 20px;
 }
- #navbar{
-     padding-bottom: 42px;
- }  
 h1 {
-        position: fixed;
+        margin: auto;
+        position: flex;
         height: 100px;
-        top: 0%;
-        left: 15%;
         padding: 35px 15px 20px 15px;
         text-align: center;
         font-size: 30px;
@@ -25,49 +17,38 @@ h1 {
         color: #ffffff;
         background:#4aaaa5;
 }
-.container{
-    flex-wrap: wrap;
-}
 #hearts {
-    position: fixed;
+    position: absolute;
     width: 100%;
     border-top: 1px solid #6c757d;
     z-index: -3;
     left: 0%;
 }
-.middlecontainer{
-    position: relative;
-    float: left;
-    top: 15%;
-    left: 15%;
-    bottom: 10%;
-    padding: 0px 34px 10px 20px;
-    margin-top: 30px;
-    background-color: #ffffff;
-    width: 960px;
-    height: 500px;
-    border: solid #dddddd;
+.container{
+        margin-top: 50px;
+        height: 500px;
+        width: 1200px;
+        border: solid 2px #dddddd; 
+        background: #ffffff; 
 }
 h2{ 
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
     font-size: 30px;
-    padding: 5% 0% 2% 3%;
+    margin-top: 20px;
 }
 .greyline{
     border-top: #cccccc solid;
-    width: 850px;
+    width: 1100px;
     margin-bottom: 30px;
+    padding-right: 10px;
 }
 #me {
-    height: 200px;
+    height: 210px;
+    width: 260px;
     margin-bottom: 10px;
 }
-#p{
-    position: relative;
-    display: inline-flex;
-    text-align: left;
+p{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,7 +67,9 @@ form{
     height: 150px;
     width: 150px;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
+
 h4{
     position: absolute;
     margin-top: 110px;
@@ -97,9 +80,10 @@ h4{
     height: 30px;
     font-size: 15px;
     text-align: center;
+    margin-left: 30px;
 }
 .bottomline{
-    position: absolute;
+    position: fixed;
     bottom: 3%;
     color: #777777;
     background: #4aaaa5;
